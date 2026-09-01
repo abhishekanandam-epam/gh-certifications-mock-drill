@@ -132,10 +132,19 @@ export default function Practice() {
     clearPracticeSession(certId);
   }
 
-  function restart() {
+  function restart(confirmRestart = false) {
+    if (confirmRestart && !window.confirm("Restart this practice session? Your current progress will be lost.")) {
+      return;
+    }
+
+    if (certId) clearPracticeSession(certId);
+    setQuestions([]);
+    setCurrentIndex(0);
+    setAnswers(new Map());
+    setRevealed(false);
+    setStartedAt(null);
     setStage("setup");
     setAttempt(null);
-    if (certId) clearPracticeSession(certId);
   }
 
   if (stage === "setup") {
@@ -179,6 +188,9 @@ export default function Practice() {
           revealed={revealed}
         />
         <div className="session-actions">
+          <button className="btn btn-secondary" onClick={() => restart(true)}>
+            Restart Practice
+          </button>
           <button 
             className="btn btn-secondary" 
             disabled={currentIndex === 0} 
@@ -205,7 +217,7 @@ export default function Practice() {
       <div className="page">
         <h1>Practice Complete</h1>
         <ScoreSummary attempt={attempt} />
-        <button className="btn btn-primary" onClick={restart}>
+        <button className="btn btn-primary" onClick={() => restart()}>
           Practice Again
         </button>
       </div>
