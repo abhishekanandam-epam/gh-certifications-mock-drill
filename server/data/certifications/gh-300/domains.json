@@ -1,0 +1,17 @@
+[
+  {
+    "id": "responsible-ai",
+    "name": "Responsible AI & Safe Usage",
+    "description": "Ethical use, bias awareness, human review, and safe adoption practices for AI-assisted coding."
+  },
+  {
+    "id": "copilot-features",
+    "name": "Copilot Features & Fundamentals",
+    "description": "Core Copilot features, IDE experience, prompt engineering, and how Copilot works in real workflows."
+  },
+  {
+    "id": "github-workflow",
+    "name": "GitHub Workflows",
+    "description": "Copilot-assisted pull requests, code review summaries, and issue triage on GitHub.com."
+  }
+]
