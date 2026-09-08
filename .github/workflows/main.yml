@@ -1,0 +1,31 @@
+name: Test Workflow
+
+on:
+  push:
+    branches: [ main, develop ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Run tests
+        run: |
+          echo "Running tests..."
+          # Add your test commands here
+          # Examples:
+          # - npm test
+          # - python -m pytest
+          # - mvn test
+          echo "Tests completed successfully!"
+      
+      - name: Check code quality
+        run: |
+          echo "Checking code quality..."
+          # Add linting/formatting checks here
+          echo "Code quality checks completed!"
