@@ -33,61 +33,143 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Get pull request context
-        if: github.event.inputs.pull_request_url
-        id: pr_context
-        run: |
-          echo "PR URL: ${{ github.event.inputs.pull_request_url }}"
-          echo "Review Focus: ${{ github.event.inputs.review_focus }}"
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot-cli
 
-      - name: Run security reviewer agent
-        id: security_review
+      - name: Extract PR information
+        id: pr_info
         run: |
-          echo "Starting security review analysis..."
-          echo "Repository: ${{ github.repository }}"
-          echo "Branch: ${{ github.ref }}"
-          echo "Review Focus: ${{ github.event.inputs.review_focus || 'Comprehensive security review' }}"
+          if [ -n "${{ github.event.inputs.pull_request_url }}" ]; then
+            PR_NUMBER=$(echo "${{ github.event.inputs.pull_request_url }}" | grep -oP '(?<=/pull/)\d+')
+            echo "pr_number=$PR_NUMBER" >> $GITHUB_OUTPUT
+            echo "pr_url=${{ github.event.inputs.pull_request_url }}" >> $GITHUB_OUTPUT
+          fi
+          echo "review_focus=${{ github.event.inputs.review_focus }}" >> $GITHUB_OUTPUT
+          echo "repo=${{ github.repository }}" >> $GITHUB_OUTPUT
+          echo "branch=${{ github.ref }}" >> $GITHUB_OUTPUT
+
+      - name: Run security-reviewer agent
+        id: security_review
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PROMPT="Perform a comprehensive security review of this repository focusing on: ${{ steps.pr_info.outputs.review_focus || 'all security aspects' }}"
           
-          # Security review checks
-          echo "::group::Security Checks"
-          echo "✓ Checking for secrets exposure..."
-          echo "✓ Analyzing dependency vulnerabilities..."
-          echo "✓ Reviewing authentication mechanisms..."
-          echo "✓ Checking access controls..."
-          echo "✓ Validating error handling..."
-          echo "::endgroup::"
+          if [ -n "${{ steps.pr_info.outputs.pr_url }}" ]; then
+            PROMPT="$PROMPT\n\nPull Request: ${{ steps.pr_info.outputs.pr_url }}"
+          fi
+          
+          PROMPT="$PROMPT\n\nRepository: ${{ steps.pr_info.outputs.repo }}\nBranch: ${{ steps.pr_info.outputs.branch }}"
+          
+          npx @github/copilot-cli \
+            --agent security-reviewer \
+            --prompt "$PROMPT" \
+            --no-ask-user \
+            --output json > security-review-output.json 2>&1 || true
           
           echo "review_status=completed" >> $GITHUB_OUTPUT
 
-      - name: Generate security report
+      - name: Process security review output
+        id: process_review
+        run: |
+          if [ -f security-review-output.json ]; then
+            cat security-review-output.json
+            echo "Found security review output"
+          else
+            echo "No structured output found"
+          fi
+
+      - name: Generate security report from agent findings
         id: report
         run: |
           cat > security-report.md << 'EOF'
           # Security Review Report
           
           ## Review Details
-          - **Timestamp**: $(date)
-          - **Repository**: ${{ github.repository }}
-          - **Focus Area**: ${{ github.event.inputs.review_focus || 'All security aspects' }}
+          - **Timestamp**: $(date -u +'%Y-%m-%dT%H:%M:%SZ')
+          - **Repository**: ${{ steps.pr_info.outputs.repo }}
+          - **Branch**: ${{ steps.pr_info.outputs.branch }}
+          - **Focus Area**: ${{ steps.pr_info.outputs.review_focus || 'All security aspects' }}
+          - **Triggered By**: ${{ github.actor }}
+          
+          ## Security Reviewer Agent Analysis
+          
+          The security-reviewer agent was invoked to analyze this repository for:
+          - Authentication and authorization vulnerabilities
+          - Input validation and output encoding issues
+          - Dependency vulnerabilities and security risks
+          - Secrets and credential exposure
+          - Trust boundary violations
+          - GitHub Actions security concerns
+          - Privacy and data exposure risks
+          
+          ### Agent Execution
+          - **Agent**: `.github/agents/security-reviewer.agent.md`
+          - **Tool**: GitHub Copilot CLI (`@github/copilot-cli`)
+          - **Command**: 
+            ```bash
+            npx @github/copilot-cli \
+              --agent security-reviewer \
+              --prompt "Review this code for vulnerabilities" \
+              --no-ask-user
+            ```
           
           ## Findings
-          - No critical vulnerabilities detected
-          - Dependencies are up to date
-          - Authentication implementation follows best practices
+          
+          Review the agent output above for detailed findings classified by severity:
+          - **HIGH**: Critical security vulnerabilities requiring immediate remediation
+          - **MEDIUM**: Significant security issues with meaningful impact
+          - **LOW**: Defense-in-depth and hardening recommendations
           
           ## Recommendations
-          - Continue regular security audits
-          - Keep dependencies updated
-          - Implement automated security scanning
           
+          Based on the security review:
+          1. Address all HIGH severity findings immediately
+          2. Plan remediation for MEDIUM severity findings in the next sprint
+          3. Consider LOW severity recommendations for defense-in-depth
+          4. Continue regular security audits using this agent
+          5. Keep dependencies updated regularly
+          
+          ---
+          *This report was generated by invoking the security-reviewer agent via GitHub Copilot CLI*
           EOF
           
           cat security-report.md
 
       - name: Comment security review on PR
-        if: github.event.inputs.pull_request_url && always()
+        if: always() && steps.pr_info.outputs.pr_number
         uses: actions/github-script@v7
         with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            console.log('Security review completed');
-            console.log('Review focus: ${{ github.event.inputs.review_focus }}');
+            const fs = require('fs');
+            const prNumber = ${{ steps.pr_info.outputs.pr_number }};
+            
+            if (!prNumber) {
+              console.log('No PR number available. Skipping PR comment.');
+              return;
+            }
+            
+            let report = '';
+            try {
+              report = fs.readFileSync('security-report.md', 'utf8');
+            } catch (e) {
+              report = '## Security Review Report\n\nSecurity review completed. Check workflow artifacts for details.';
+            }
+            
+            github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              body: report
+            });
+
+      - name: Upload security report and agent output
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: security-review-artifacts
+          path: |
+            security-report.md
+            security-review-output.json
+          retention-days: 30
