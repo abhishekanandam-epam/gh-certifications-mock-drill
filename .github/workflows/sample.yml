@@ -1,0 +1,24 @@
+name: Simple Workflow
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Display directory structure
+        run: ls -la
+
+      - name: Print current date
+        run: date
+
+      - name: Print repository info
+        run: echo "Repository is ${{ github.repository }} on branch ${{ github.ref_name }}"
