@@ -1,17 +1,22 @@
 [
   {
-    "id": "responsible-ai",
-    "name": "Responsible AI & Safe Usage",
-    "description": "Ethical use, bias awareness, human review, and safe adoption practices for AI-assisted coding."
+    "id": "copilot-fundamentals",
+    "name": "Copilot Fundamentals",
+    "description": "Product capabilities and limitations, plan features, responsible AI, privacy, telemetry, and data handling."
   },
   {
-    "id": "copilot-features",
-    "name": "Copilot Features & Fundamentals",
-    "description": "Core Copilot features, IDE experience, prompt engineering, and how Copilot works in real workflows."
+    "id": "developer-workflows",
+    "name": "Developer Workflows",
+    "description": "Copilot Chat, inline completions, supported surfaces, prompting techniques, and context management."
   },
   {
-    "id": "github-workflow",
-    "name": "GitHub Workflows",
-    "description": "Copilot-assisted pull requests, code review summaries, and issue triage on GitHub.com."
+    "id": "software-development-tasks",
+    "name": "Software Development Tasks",
+    "description": "Code generation, refactoring, testing, debugging, documentation, review, and validation of generated code."
+  },
+  {
+    "id": "administration-governance",
+    "name": "Administration & Governance",
+    "description": "Organization and enterprise policies, access, exclusions, usage metrics, audit considerations, and public-code filtering."
   }
 ]
