@@ -1,7 +1,7 @@
 [
   {
     "id": "q001",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which Microsoft ethical AI principle is aimed at ensuring AI systems treat all people equally?",
     "options": [
       "Inclusiveness",
@@ -17,7 +17,7 @@
   },
   {
     "id": "q002",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which types of prompts or code snippets might be flagged by the GitHub Copilot toxicity filter? (Choose two)",
     "options": [
       "Sexually explicit content",
@@ -34,7 +34,7 @@
   },
   {
     "id": "q003",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which Responsible AI principle is focused on ensuring people remain accountable for the deployment and impact of AI systems?",
     "options": [
       "Transparency",
@@ -50,7 +50,7 @@
   },
   {
     "id": "q004",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle requires AI systems to be dependable, consistent, and work as intended under expected conditions?",
     "options": [
       "Inclusiveness",
@@ -66,7 +66,7 @@
   },
   {
     "id": "q005",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which of the following is not a Microsoft Responsible AI principle?",
     "options": [
       "Fairness",
@@ -82,7 +82,7 @@
   },
   {
     "id": "q006",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which principle emphasizes protecting data, ensuring confidentiality, and maintaining security in AI systems?",
     "options": [
       "Reliability and Safety",
@@ -98,7 +98,7 @@
   },
   {
     "id": "q007",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What is the primary goal of the **Inclusiveness** principle?",
     "options": [
       "Ensure AI systems are reliable under stress",
@@ -114,7 +114,7 @@
   },
   {
     "id": "q008",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What is a key responsibility under the **Transparency** principle?",
     "options": [
       "Allowing unrestricted public access to AI data",
@@ -130,7 +130,7 @@
   },
   {
     "id": "q009",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle addresses the risk of **biased or unrepresentative training data**?",
     "options": [
       "Accountability",
@@ -146,7 +146,7 @@
   },
   {
     "id": "q010",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Why is **human oversight** critical under the **Accountability** principle?",
     "options": [
       "To maintain responsibility for outcomes and correct harmful results",
@@ -162,7 +162,7 @@
   },
   {
     "id": "q011",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle requires proactively informing users when AI systems are making decisions that affect them?",
     "options": [
       "Transparency",
@@ -178,7 +178,7 @@
   },
   {
     "id": "q012",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "A team wants to deploy GitHub Copilot but needs assurance that personal data will not be exposed in completions. Which principle directly addresses this concern?",
     "options": [
       "Transparency",
@@ -194,7 +194,7 @@
   },
   {
     "id": "q013",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle requires that AI systems clearly communicate their **limitations** and **potential risks**?",
     "options": [
       "Inclusiveness",
@@ -210,7 +210,7 @@
   },
   {
     "id": "q014",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle helps ensure AI solutions do not unintentionally exclude people with disabilities?",
     "options": [
       "Reliability and Safety",
@@ -226,7 +226,7 @@
   },
   {
     "id": "q015",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle requires organizations to establish processes for identifying, assessing, and mitigating risks before AI deployment?",
     "options": [
       "Accountability",
@@ -242,7 +242,7 @@
   },
   {
     "id": "q016",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which Microsoft Responsible AI principle emphasizes that people, not machines, are ultimately answerable for AI outcomes?",
     "options": [
       "Transparency",
@@ -258,7 +258,7 @@
   },
   {
     "id": "q017",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle requires that AI systems are tested for **accuracy**, **security**, and **reliability** before widespread release?",
     "options": [
       "Transparency",
@@ -274,7 +274,7 @@
   },
   {
     "id": "q018",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "A development team wants to explain to users when **GitHub Copilot** is generating suggestions in their IDE. Which principle supports this communication?",
     "options": [
       "Privacy and Security",
@@ -290,7 +290,7 @@
   },
   {
     "id": "q019",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle focuses on preventing **discrimination** by ensuring AI systems are trained and evaluated with **representative datasets**?",
     "options": [
       "Transparency",
@@ -306,7 +306,7 @@
   },
   {
     "id": "q020",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which Responsible AI principle is **violated** if an AI system provides recommendations with **no way** for users to understand its decision-making process?",
     "options": [
       "Reliability and Safety",
@@ -322,7 +322,7 @@
   },
   {
     "id": "q021",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "A team notices two issues with their AI tools: GitHub Copilot suggestions work much better for **English** comments than for **non-English** ones, and an AI system that auto-assigns code reviews is **overloading a few developers** while others get very few. Which approach and principles best address both problems?",
     "options": [
       "Apply Fairness and Inclusiveness by expanding non-English training data, testing performance across languages, and adjusting the assignment logic so review workloads are more evenly distributed.",
@@ -338,7 +338,7 @@
   },
   {
     "id": "q022",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "A team is building an internal **GitHub Copilot** extension. They want to publish **transparency documentation** for internal users and enable later **audits** to understand **data sources**, **model scope**, and **validation tests**. Which option best aligns with the **Transparency** principle?",
     "options": [
       "Providing a detailed revenue forecast and exact run-costs of the AI system.",
@@ -354,7 +354,7 @@
   },
   {
     "id": "q023",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "During a project, a developer uses **Copilot** and generated code accidentally includes **personal identifiers** from a public dataset, and later an audit reveals a custom Copilot extension was trained on **real customer data without consent**. Which actions best demonstrate **Accountability** while addressing the **Privacy and Security** violation? **Choose two.**",
     "options": [
       "Ignore the issues because the data was public or eventually anonymized.",
@@ -371,7 +371,7 @@
   },
   {
     "id": "q024",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "A Copilot for Business customer wants to ensure employees’ **private repositories**, **prompts**, and **completions** are **not used to train** the Copilot model. A developer proposes adding **sensitive user attributes** to training data to improve **fairness**, but this would exceed user **consent**. Which statement best reflects the correct Responsible AI priority and product behavior?",
     "options": [
       "Privacy and Security should take precedence, private repositories, prompts, and completions in Copilot Business/Enterprise are not used to retrain the base models, and fairness should be improved using synthetic or privacy-preserving methods that respect consent.",
@@ -387,7 +387,7 @@
   },
   {
     "id": "q025",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "A company adopts GitHub Copilot with two strict policies, all **Copilot-generated code** must pass **secure-coding review** and **validation tests** before merge, and developers must **fix accessibility** issues in generated UI code and **document** that they have done so. Which combination of principles is most clearly reflected?",
     "options": [
       "Reliability and Safety, Inclusiveness, and Accountability",
@@ -403,7 +403,7 @@
   },
   {
     "id": "q026",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which principle requires systems to maintain **confidentiality** of personal information and **prevent misuse** of data?",
     "options": [
       "Privacy and Security",
@@ -419,7 +419,7 @@
   },
   {
     "id": "q027",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "An AI model generates **offensive or unsafe content** during testing. Which principle is most directly violated?",
     "options": [
       "Reliability and Safety",
@@ -435,7 +435,7 @@
   },
   {
     "id": "q028",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Why is **Inclusiveness** critical in AI adoption across **global teams**?",
     "options": [
       "It guarantees AI will never malfunction",
@@ -451,7 +451,7 @@
   },
   {
     "id": "q029",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "A team discovers that **GitHub Copilot** occasionally generates **outdated or insecure code patterns**. Which Responsible AI principle should guide their response?",
     "options": [
       "Reliability and Safety",
@@ -467,7 +467,7 @@
   },
   {
     "id": "q030",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "An organization plans to store **encrypted API keys** used by its AI assistant. Which approach aligns best with **Privacy and Security**?",
     "options": [
       "Use a local text file accessible to all developers",
@@ -483,7 +483,7 @@
   },
   {
     "id": "q031",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which GitHub Copilot plan is available at no cost to verified students, teachers, and maintainers of popular open-source projects?",
     "options": [
       "GitHub Copilot Free",
@@ -499,7 +499,7 @@
   },
   {
     "id": "q032",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan is designed for organizations that require **license management**, **policy controls**, and **usage reporting** but do not need **enterprise integrations**?",
     "options": [
       "GitHub Copilot Pro",
@@ -515,7 +515,7 @@
   },
   {
     "id": "q033",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan provides enterprise features like audit logs, SSO integration, and advanced compliance capabilities?",
     "options": [
       "GitHub Copilot Free",
@@ -531,7 +531,7 @@
   },
   {
     "id": "q034",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which GitHub Copilot feature lets developers ask **natural-language** questions about code, get **explanations**, and generate suggestions directly within **supported IDEs**?",
     "options": [
       "GitHub Copilot Chat",
@@ -547,7 +547,7 @@
   },
   {
     "id": "q035",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot feature helps organizations prevent **sensitive data** such as **secrets**, **credentials**, or **proprietary code** from being used as context in AI suggestions, available on **Copilot Business** and **Copilot Enterprise**?",
     "options": [
       "GitHub Copilot Chat",
@@ -563,7 +563,7 @@
   },
   {
     "id": "q036",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan is most suitable for enterprises that need centralized management, audit logs, SSO, and advanced compliance reporting?",
     "options": [
       "GitHub Copilot Pro",
@@ -579,7 +579,7 @@
   },
   {
     "id": "q037",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan allows organization administrators to manage **licenses**, configure **content (context) exclusion** policies, and view **usage reporting**?",
     "options": [
       "GitHub Copilot Pro",
@@ -595,7 +595,7 @@
   },
   {
     "id": "q038",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan provides enterprise-grade **integrations** and **compliance** capabilities, and can be paired with **GitHub Premium Support (SLAs) as a separate purchase**?",
     "options": [
       "GitHub Copilot Pro",
@@ -611,7 +611,7 @@
   },
   {
     "id": "q039",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which GitHub Copilot plan provides **repository-level context awareness on GitHub.com**, allowing Copilot Chat to reference and understand repository files directly?",
     "options": [
       "GitHub Copilot Business",
@@ -627,7 +627,7 @@
   },
   {
     "id": "q040",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan includes enterprise-grade **integrations** and **compliance** capabilities, while **GitHub Premium Support with SLAs** can be purchased **separately** if needed?",
     "options": [
       "GitHub Copilot Business",
@@ -643,7 +643,7 @@
   },
   {
     "id": "q041",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan provides **usage reporting** and **organizational policy controls** without enterprise-only integrations?",
     "options": [
       "GitHub Copilot Pro",
@@ -659,7 +659,7 @@
   },
   {
     "id": "q042",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan integrates with enterprise identity providers to support **Single Sign-On (SSO)**?",
     "options": [
       "GitHub Copilot Pro",
@@ -675,7 +675,7 @@
   },
   {
     "id": "q043",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan is best suited for **individual developers** who want AI-assisted coding features **without** organizational controls or policy management?",
     "options": [
       "GitHub Copilot Business",
@@ -691,7 +691,7 @@
   },
   {
     "id": "q044",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan(s) provide **organization-level usage reporting**? *(Choose all that apply.)*",
     "options": [
       "GitHub Copilot Pro",
@@ -708,7 +708,7 @@
   },
   {
     "id": "q045",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan introduces **content (context) exclusion** policies for admins **without** requiring enterprise-only integrations?",
     "options": [
       "GitHub Copilot Pro",
@@ -724,7 +724,7 @@
   },
   {
     "id": "q046",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Your organization is on the **GitHub Team** plan and needs **license management**, **policy controls**, and **usage reporting**, but no enterprise integrations. Which Copilot plan fits?",
     "options": [
       "GitHub Copilot Pro",
@@ -740,7 +740,7 @@
   },
   {
     "id": "q047",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which GitHub Copilot plan(s) provide **content/context exclusion** to prevent specific files or repositories from being used as suggestion context? *(Choose all that apply.)*",
     "options": [
       "GitHub Copilot Pro",
@@ -757,7 +757,7 @@
   },
   {
     "id": "q048",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which statement about **support SLAs** and Copilot plans is **accurate**?",
     "options": [
       "Copilot Enterprise includes Premium Support SLAs by default",
@@ -773,7 +773,7 @@
   },
   {
     "id": "q049",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which statement about **SSO** and Copilot plans is **correct**?",
     "options": [
       "SSO is bundled with Copilot Enterprise as a plan feature",
@@ -789,7 +789,7 @@
   },
   {
     "id": "q050",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "When you start a **free 30-day trial of GitHub Enterprise Cloud**, which GitHub Copilot plan is **included with the trial**?",
     "options": [
       "GitHub Copilot Free",
@@ -805,7 +805,7 @@
   },
   {
     "id": "q051",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Who can **manage** (create or edit) **content exclusion** settings for GitHub Copilot? *(Choose all that apply.)*",
     "options": [
       "Repository administrators",
@@ -823,7 +823,7 @@
   },
   {
     "id": "q052",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "What is the purpose of GitHub Copilot’s **duplication detection or code-referencing controls**?",
     "options": [
       "To compress prompts for faster latency",
@@ -839,7 +839,7 @@
   },
   {
     "id": "q053",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan is available to enterprises using **GitHub Enterprise Cloud**, providing **advanced compliance**, **audit**, and **identity** features?",
     "options": [
       "GitHub Copilot Business",
@@ -855,7 +855,7 @@
   },
   {
     "id": "q054",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan provides **enterprise proxy support** and **advanced compliance** features, and can be paired with **GitHub Premium Support (SLAs) as a separate purchase**?",
     "options": [
       "GitHub Copilot Business",
@@ -871,7 +871,7 @@
   },
   {
     "id": "q055",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan enables **organization administrators** to define and enforce **policy settings** for how code suggestions are generated?",
     "options": [
       "GitHub Copilot Pro",
@@ -887,7 +887,7 @@
   },
   {
     "id": "q056",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan provides **organization administrators** with **usage metrics and reports** for members’ Copilot activity?",
     "options": [
       "GitHub Copilot Pro",
@@ -904,7 +904,7 @@
   },
   {
     "id": "q057",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan provides **advanced governance** for enterprise-scale organizations (for example, **enterprise integrations** and **GitHub.com repository-aware Copilot Chat**) alongside **audit visibility** and compliance support?",
     "options": [
       "GitHub Copilot Pro",
@@ -920,7 +920,7 @@
   },
   {
     "id": "q058",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan offers **enterprise-grade integrations** with systems such as **audit visibility**, **SSO (org-configured)**, and **compliance** features?",
     "options": [
       "GitHub Copilot Pro",
@@ -936,7 +936,7 @@
   },
   {
     "id": "q059",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "In which environments is **GitHub Copilot Chat** available today? *(Choose all that apply.)*",
     "options": [
       "GitHub.com",
@@ -955,7 +955,7 @@
   },
   {
     "id": "q060",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "Which GitHub Copilot plan(s) support **centralized seat (license) assignment and management** at the **organization** level? *(Choose all that apply.)*",
     "options": [
       "GitHub Copilot Pro",
@@ -972,7 +972,7 @@
   },
   {
     "id": "q061",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan(s) surface **Copilot activity in the organization audit log** so admins can review who used Copilot features and when? *(Choose all that apply.)*",
     "options": [
       "GitHub Copilot Pro",
@@ -989,7 +989,7 @@
   },
   {
     "id": "q062",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot plan(s) provide **organization-wide policy controls** such as **content/context exclusions** and **enforced public code filtering**? *(Choose all that apply.)*",
     "options": [
       "GitHub Copilot Pro",
@@ -1006,7 +1006,7 @@
   },
   {
     "id": "q063",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which GitHub Copilot plan enables **GitHub.com repository-aware Copilot Chat** (summarize/explain code directly from repo files, beyond IDE-only context)?",
     "options": [
       "GitHub Copilot Pro",
@@ -1022,7 +1022,7 @@
   },
   {
     "id": "q064",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "**Where are prompts processed** when you use GitHub Copilot?",
     "options": [
       "Only on the local IDE; nothing leaves your machine",
@@ -1038,7 +1038,7 @@
   },
   {
     "id": "q065",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "**Does GitHub Copilot train on your private code?**",
     "options": [
       "Yes, always",
@@ -1054,7 +1054,7 @@
   },
   {
     "id": "q066",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which statement best describes **telemetry/usage data** for GitHub Copilot?",
     "options": [
       "Copilot collects no usage metrics",
@@ -1070,7 +1070,7 @@
   },
   {
     "id": "q067",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which statement about **AI models in GitHub Copilot** is accurate?",
     "options": [
       "Copilot uses a single fixed model for all features",
@@ -1086,7 +1086,7 @@
   },
   {
     "id": "q068",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "What is a **primary benefit of prompt engineering** when using Copilot?",
     "options": [
       "It guarantees license-compliant output",
@@ -1102,7 +1102,7 @@
   },
   {
     "id": "q069",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which is a **common developer use case** for GitHub Copilot?",
     "options": [
       "Replacing your SCM server",
@@ -1118,7 +1118,7 @@
   },
   {
     "id": "q070",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which GitHub Copilot plan is **included by default** with **GitHub Enterprise Cloud (GHEC)**?",
     "options": [
       "Copilot Enterprise",
@@ -1134,7 +1134,7 @@
   },
   {
     "id": "q071",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Who benefits most from **GitHub Copilot Free**?",
     "options": [
       "Enterprises that need audit logs and policy controls",
@@ -1150,7 +1150,7 @@
   },
   {
     "id": "q072",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "Which statement best describes **Copilot’s context awareness** when generating suggestions?",
     "options": [
       "Copilot always uses the entire repository history",
@@ -1166,7 +1166,7 @@
   },
   {
     "id": "q073",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Does GitHub Copilot **guarantee** that generated code is always correct and secure?",
     "options": [
       "Yes, Copilot guarantees security",
@@ -1182,7 +1182,7 @@
   },
   {
     "id": "q074",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "What types of prompts or code can be blocked by Copilot’s **safety filters**? *(Choose all that apply.)*",
     "options": [
       "Hate speech or discriminatory language",
@@ -1199,7 +1199,7 @@
   },
   {
     "id": "q075",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "In **VS Code**, which built-in action helps you gather logs and diagnostics for Copilot issues?",
     "options": [
       "GitHub Copilot: Export Telemetry",
@@ -1215,7 +1215,7 @@
   },
   {
     "id": "q076",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "Which of the following is **not** a valid, current **Copilot plan name**?",
     "options": [
       "Copilot Free",
@@ -1231,7 +1231,7 @@
   },
   {
     "id": "q077",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Where is GitHub Copilot **not available**?",
     "options": [
       "GitHub Enterprise Cloud",
@@ -1247,7 +1247,7 @@
   },
   {
     "id": "q078",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which Copilot **admin control** limits what content the models can access as **input context**?",
     "options": [
       "Code referencing",
@@ -1263,7 +1263,7 @@
   },
   {
     "id": "q079",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "When **matching public code** controls are enabled, about how much surrounding code does Copilot compare to detect matches?",
     "options": [
       "~50 characters",
@@ -1279,7 +1279,7 @@
   },
   {
     "id": "q080",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "When an **enterprise policy** enforces a Copilot setting (for example, “block matching public code”), what can organizations do?",
     "options": [
       "Override it at the organization level",
@@ -1295,7 +1295,7 @@
   },
   {
     "id": "q081",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Is **GitHub Copilot available in the command line**, and what does it help with?",
     "options": [
       "No, Copilot is IDE-only",
@@ -1311,7 +1311,7 @@
   },
   {
     "id": "q082",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "How does **Content exclusion** differ from a **.gitignore** file?",
     "options": [
       "Both prevent files from being pushed to GitHub",
@@ -1327,7 +1327,7 @@
   },
   {
     "id": "q083",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "At which **scopes** can **code referencing / “Suggestions matching public code”** be configured?",
     "options": [
       "Only at the IDE level",
@@ -1343,7 +1343,7 @@
   },
   {
     "id": "q084",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "If an **enterprise policy** restricts Copilot to a specific **set of AI models/surfaces**, what can organizations do?",
     "options": [
       "Choose any model/surface regardless of enterprise policy",
@@ -1359,7 +1359,7 @@
   },
   {
     "id": "q085",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which GitHub Copilot capability can **autonomously make multi-step code changes** and open a **pull request** for review?",
     "options": [
       "Copilot Chat inline replies",
@@ -1375,7 +1375,7 @@
   },
   {
     "id": "q086",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which statement about **Copilot Knowledge Bases** is accurate?",
     "options": [
       "Available on all Copilot plans",
@@ -1391,7 +1391,7 @@
   },
   {
     "id": "q087",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "At which **scopes** can **code referencing / “Suggestions matching public code”** be configured?",
     "options": [
       "Only in IDE settings",
@@ -1407,7 +1407,7 @@
   },
   {
     "id": "q088",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which **targets** can be specified in **Content exclusion** rules?",
     "options": [
       "Only repositories",
@@ -1423,7 +1423,7 @@
   },
   {
     "id": "q089",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which statement best describes **repository-aware Copilot Chat on GitHub.com**?",
     "options": [
       "It is available to all plans by default",
@@ -1439,7 +1439,7 @@
   },
   {
     "id": "q090",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "In **VS Code**, where do you enable or disable **Copilot inline suggestions** globally or per language?",
     "options": [
       "File → Preferences → Keyboard Shortcuts → GitHub",
@@ -1455,7 +1455,7 @@
   },
   {
     "id": "q091",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Where can you find **Copilot/extension logs** and deeper **Electron logs** in **VS Code**?",
     "options": [
       "Only in GitHub.com → Your profile → Logs",
@@ -1471,7 +1471,7 @@
   },
   {
     "id": "q092",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "How do you run **“GitHub Copilot: Collect Diagnostics”** from the **Command Palette** in VS Code?",
     "options": [
       "Ctrl/Cmd+` → type “diagnostics copilot”",
@@ -1487,7 +1487,7 @@
   },
   {
     "id": "q093",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "On which **surfaces** is **Copilot Chat** available?",
     "options": [
       "Only VS Code and Visual Studio",
@@ -1503,7 +1503,7 @@
   },
   {
     "id": "q094",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "What’s the difference between **Copilot Edits – Edit mode** and **Agent mode**?",
     "options": [
       "Edit = disables approvals; Agent = requires approvals",
@@ -1519,7 +1519,7 @@
   },
   {
     "id": "q095",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "What do **Copilot code reviews** and **PR summaries** provide on GitHub.com?",
     "options": [
       "Auto-merge PRs",
@@ -1535,7 +1535,7 @@
   },
   {
     "id": "q096",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "For **individuals**, which statements about **access and eligibility** are correct?",
     "options": [
       "Copilot Free is for personal use; Pro is paid but may be free for verified students/teachers/maintainers",
@@ -1551,7 +1551,7 @@
   },
   {
     "id": "q097",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Who purchases and assigns seats for **Business vs. Enterprise** plans?",
     "options": [
       "Developers purchase directly in the IDE",
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "q098",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which answer best captures the **Copilot plan taxonomy** and key highlights?",
     "options": [
       "Free, Team, Premium",
@@ -1583,7 +1583,7 @@
   },
   {
     "id": "q099",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "What’s the practical contrast in **how developers invoke** Copilot features?",
     "options": [
       "Inline suggestions: appear near the cursor (accept with Tab/Enter). Chat: open a chat panel and prompt (supports selections).",
@@ -1599,7 +1599,7 @@
   },
   {
     "id": "q100",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Can Copilot help **generate unit tests** in supported IDEs?",
     "options": [
       "No, only refactors are supported",
@@ -1615,7 +1615,7 @@
   },
   {
     "id": "q101",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Is **Windows Terminal** a supported surface for **Copilot Chat**?",
     "options": [
       "No, terminal isn’t supported",
@@ -1631,7 +1631,7 @@
   },
   {
     "id": "q102",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How can Copilot help with **documentation tasks** such as docstrings, README sections, and code comments?",
     "options": [
       "It can only generate code, not docs",
@@ -1647,7 +1647,7 @@
   },
   {
     "id": "q103",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How can Copilot assist with **debugging and fixing errors**?",
     "options": [
       "It automatically fixes all errors at build time",
@@ -1663,7 +1663,7 @@
   },
   {
     "id": "q104",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How can Copilot support a **TDD (red→green→refactor)** workflow?",
     "options": [
       "By auto-approving PRs when tests pass",
@@ -1679,7 +1679,7 @@
   },
   {
     "id": "q105",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "What actually happens when you **accept an inline suggestion**?",
     "options": [
       "The code is auto-committed and pushed",
@@ -1695,7 +1695,7 @@
   },
   {
     "id": "q106",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "How can Copilot help you **understand an unfamiliar file or component** in your codebase?",
     "options": [
       "It can’t, Copilot only writes code",
@@ -1711,7 +1711,7 @@
   },
   {
     "id": "q107",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which is the **best-crafted prompt**?",
     "options": [
       "Write a function",
@@ -1727,7 +1727,7 @@
   },
   {
     "id": "q108",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "How do you improve **ambiguous prompts**?",
     "options": [
       "Use shorter prompts",
@@ -1743,7 +1743,7 @@
   },
   {
     "id": "q109",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Which technique most reliably boosts output quality?",
     "options": [
       "Use vague prompts",
@@ -1759,7 +1759,7 @@
   },
   {
     "id": "q110",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Why does adding **examples** help?",
     "options": [
       "Examples distract the AI",
@@ -1775,7 +1775,7 @@
   },
   {
     "id": "q111",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Why is **context** crucial in prompts?",
     "options": [
       "It slows responses",
@@ -1791,7 +1791,7 @@
   },
   {
     "id": "q112",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "What should you do if Copilot generates **irrelevant suggestions**?",
     "options": [
       "Stop using Copilot",
@@ -1807,7 +1807,7 @@
   },
   {
     "id": "q113",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which practice helps Copilot match **project style**?",
     "options": [
       "Avoid adding comments",
@@ -1823,7 +1823,7 @@
   },
   {
     "id": "q114",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which statement best describes **what Copilot relies on during inference**?",
     "options": [
       "Runtime execution of your code",
@@ -1839,7 +1839,7 @@
   },
   {
     "id": "q115",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "What does **content exclusion** let organizations do (and why is it relevant to prompting)?",
     "options": [
       "Speed up Copilot",
@@ -1855,7 +1855,7 @@
   },
   {
     "id": "q116",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which **Copilot plans** include **content exclusion**?",
     "options": [
       "Free and Individual",
@@ -1871,7 +1871,7 @@
   },
   {
     "id": "q117",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Which prompt gives Copilot the **clearest output target**?",
     "options": [
       "“Summarize this.”",
@@ -1887,7 +1887,7 @@
   },
   {
     "id": "q118",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "When asking Copilot to refactor code, which prompt is best?",
     "options": [
       "“Improve this.”",
@@ -1903,7 +1903,7 @@
   },
   {
     "id": "q119",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which prompt best reduces **hallucinations** when generating API code?",
     "options": [
       "“Use the Foo API.”",
@@ -1919,7 +1919,7 @@
   },
   {
     "id": "q120",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "You want table-driven unit tests. Which prompt is best?",
     "options": [
       "“Write tests.”",
@@ -1935,7 +1935,7 @@
   },
   {
     "id": "q121",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Which instruction most improves **SQL** prompts?",
     "options": [
       "“PostgreSQL 14; given schema (tables/columns below); return top 5 customers by revenue last 30 days; output columns: id, name, revenue.”",
@@ -1951,7 +1951,7 @@
   },
   {
     "id": "q122",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "Which prompt best directs Copilot to produce **safe code** for secrets?",
     "options": [
       "“Use an API key from an environment variable; if it’s missing, fall back to a default test key and log the value for debugging.”",
@@ -1967,7 +1967,7 @@
   },
   {
     "id": "q123",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "You want Copilot to **explain** a complex file to a new teammate. Best prompt?",
     "options": [
       "“Explain this file in detail: what it does, how it works, and any important parts.”",
@@ -1983,7 +1983,7 @@
   },
   {
     "id": "q124",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which prompt targets a **performance-aware** implementation?",
     "options": [
       "“Write a streaming JSON parser in Node.js; O(1) extra space; handle 10MB+ inputs; backpressure with streams; include benchmarks stub.”",
@@ -1999,7 +1999,7 @@
   },
   {
     "id": "q125",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which prompt best **constrains the output format** so it can be pasted into CI?",
     "options": [
       "“List failing tests with their names and error messages in any readable format.”",
@@ -2015,7 +2015,7 @@
   },
   {
     "id": "q126",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "You need a **migration plan** before code. Best prompt?",
     "options": [
       "“Create a short plan to migrate this service from Flask to FastAPI, focusing on the main steps required to complete the migration.”",
@@ -2031,7 +2031,7 @@
   },
   {
     "id": "q127",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "Which prompt reduces **overbroad refactors** in large files?",
     "options": [
       "“Refactor the `parseHeader` logic to make it clearer and more robust across the parser code.”",
@@ -2047,7 +2047,7 @@
   },
   {
     "id": "q128",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "How do you prompt for **secure HTTP handling**?",
     "options": [
       "“Use HTTPS; validate TLS certs; set timeouts and retries; redact secrets in logs; handle 429/5xx with backoff.”",
@@ -2063,7 +2063,7 @@
   },
   {
     "id": "q129",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which prompt best avoids **unsupported library calls**?",
     "options": [
       "“Use Redis with a standard client library and configure basic connection settings for your environment.”",
@@ -2079,7 +2079,7 @@
   },
   {
     "id": "q130",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Best way to ask for a **configurable CLI tool**?",
     "options": [
       "“Create a Python CLI with `argparse`; flags: `--input`, `--format (json|csv)`, `--verbose`; validate files; exit codes 0/2; examples.”",
@@ -2095,7 +2095,7 @@
   },
   {
     "id": "q131",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "How to prompt for a **safe database migration**?",
     "options": [
       "“Add a new `status` column and update the application to start using it, then remove old fields later if needed.”",
@@ -2111,7 +2111,7 @@
   },
   {
     "id": "q132",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which prompt best constrains **logging** for privacy?",
     "options": [
       "“Add JSON logs with level and message, and include full request and response bodies to simplify debugging.”",
@@ -2127,7 +2127,7 @@
   },
   {
     "id": "q133",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which plan offers **enterprise proxy support** and integration with **advanced compliance** capabilities?",
     "options": [
       "Copilot Free, for individuals without governance or compliance controls",
@@ -2143,7 +2143,7 @@
   },
   {
     "id": "q134",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which plan includes **organization-level** controls like **content exclusion** and **usage visibility**?",
     "options": [
       "Copilot Free",
@@ -2159,7 +2159,7 @@
   },
   {
     "id": "q135",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which plan includes **audit logs** and advanced **compliance** controls?",
     "options": [
       "Copilot Free",
@@ -2175,7 +2175,7 @@
   },
   {
     "id": "q136",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "What’s the practical difference between **Copilot Edits – Edit mode** and **Agent mode**?",
     "options": [
       "Edit auto-merges; Agent requires reviews",
@@ -2191,7 +2191,7 @@
   },
   {
     "id": "q137",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "What is the **minimum length** Copilot’s duplication-detection filter considers when blocking **exact matches**?",
     "options": [
       "50 characters",
@@ -2207,7 +2207,7 @@
   },
   {
     "id": "q138",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which plan provides **organizational license management** and **usage reporting** **without** enterprise integrations (like audit logs/SSO)?",
     "options": [
       "Copilot Free",
@@ -2223,7 +2223,7 @@
   },
   {
     "id": "q139",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which of the following is an **advanced developer use case** for Copilot?",
     "options": [
       "Helping explore unfamiliar APIs and libraries",
@@ -2239,7 +2239,7 @@
   },
   {
     "id": "q140",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which plan provides features like **license management** and **content exclusion** for organizations?",
     "options": [
       "Copilot Individual (Pro/Pro+)",
@@ -2255,7 +2255,7 @@
   },
   {
     "id": "q141",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which setting governs **similar-but-not-exact** suggestions that resemble public code?",
     "options": [
       "Content exclusion",
@@ -2271,7 +2271,7 @@
   },
   {
     "id": "q142",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "When **code referencing** is set to **“Allow + show references”**, what should you expect?",
     "options": [
       "Copilot blocks all similar suggestions",
@@ -2287,7 +2287,7 @@
   },
   {
     "id": "q143",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "At what **scopes** can you configure **code referencing** behavior?",
     "options": [
       "Only repository level",
@@ -2303,7 +2303,7 @@
   },
   {
     "id": "q144",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which statement about **content exclusion** is accurate?",
     "options": [
       "It censors outputs that resemble excluded files",
@@ -2319,7 +2319,7 @@
   },
   {
     "id": "q145",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which roles can **manage** content exclusion policies?",
     "options": [
       "Outside collaborators only",
@@ -2335,7 +2335,7 @@
   },
   {
     "id": "q146",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "A suggestion exactly matches ~200 characters from a public repo. What happens?",
     "options": [
       "It’s allowed as long as the public code uses a permissive license.",
@@ -2351,7 +2351,7 @@
   },
   {
     "id": "q147",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "Which plan enables **repository-aware Copilot Chat on GitHub.com** (chat that can reference repo files and docs)?",
     "options": [
       "Copilot Individual (Pro/Pro+)",
@@ -2367,7 +2367,7 @@
   },
   {
     "id": "q148",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "Which statement about **Copilot Knowledge Bases** is accurate?",
     "options": [
       "Available on all plans",
@@ -2383,7 +2383,7 @@
   },
   {
     "id": "q149",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Who manages purchasing and **seat assignment** for **Business vs. Enterprise**?",
     "options": [
       "Developers in the IDE",
@@ -2399,7 +2399,7 @@
   },
   {
     "id": "q150",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which capability allows Copilot to perform **multi-step changes** and open a **pull request** for review?",
     "options": [
       "Inline suggestions",
@@ -2415,7 +2415,7 @@
   },
   {
     "id": "q151",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "On GitHub.com, what do **Copilot code reviews** and **PR summaries** provide?",
     "options": [
       "Automatically approves and merges pull requests without human review.",
@@ -2431,7 +2431,7 @@
   },
   {
     "id": "q152",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "How does Copilot handle suggestions that **exactly match** long segments of **public code**?",
     "options": [
       "Blocks any suggestion that resembles public code, regardless of length or settings.",
@@ -2447,7 +2447,7 @@
   },
   {
     "id": "q153",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "How can Copilot assist with unit testing?",
     "options": [
       "By automatically generating test functions from code definitions",
@@ -2463,7 +2463,7 @@
   },
   {
     "id": "q154",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which Copilot plan provides **enterprise proxy support** for secure environments?",
     "options": [
       "Copilot Free",
@@ -2479,7 +2479,7 @@
   },
   {
     "id": "q155",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "On which **surfaces** is **Copilot Chat** available today? *(Choose all that apply.)*",
     "options": [
       "GitHub.com",
@@ -2498,7 +2498,7 @@
   },
   {
     "id": "q156",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Is GitHub Copilot supported on **GitHub Enterprise Server (GHES)**?",
     "options": [
       "Yes, Copilot runs entirely on-premises inside your GHES instance.",
@@ -2514,7 +2514,7 @@
   },
   {
     "id": "q157",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "What can **Copilot Chat in the CLI** help you do?",
     "options": [
       "Draft and explain shell and Git commands and their flags",
@@ -2530,7 +2530,7 @@
   },
   {
     "id": "q158",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Across environments, what’s the right way to think about **inline suggestions vs. Chat**?",
     "options": [
       "Inline runs only in browsers, while Chat runs only inside IDEs.",
@@ -2546,7 +2546,7 @@
   },
   {
     "id": "q159",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Do **content exclusion** policies apply **across all Copilot surfaces**?",
     "options": [
       "No, content exclusion only applies when using Copilot in Visual Studio Code.",
@@ -2562,7 +2562,7 @@
   },
   {
     "id": "q160",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "What Copilot plan offers AI-powered code completions for free, but with limited features compared to paid plans?",
     "options": [
       "Copilot Free",
@@ -2578,7 +2578,7 @@
   },
   {
     "id": "q161",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which Copilot plan provides organizational visibility into **usage metrics** but does **not** include enterprise-grade compliance?",
     "options": [
       "Copilot Individual (Pro/Pro+), with no org-wide usage reporting",
@@ -2594,7 +2594,7 @@
   },
   {
     "id": "q162",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which Copilot plan gives **organizations** control over which repositories and code Copilot can access?",
     "options": [
       "Copilot Free, with no org-level repository controls",
@@ -2610,7 +2610,7 @@
   },
   {
     "id": "q163",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which Copilot plan is most appropriate for developers who want **Copilot Chat** and code completion but **no** organizational management features?",
     "options": [
       "Copilot Free, with limited features and no full Chat experience",
@@ -2626,7 +2626,7 @@
   },
   {
     "id": "q164",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Is **Copilot Enterprise** included with GitHub Enterprise Cloud (GHEC) at **no additional cost**?",
     "options": [
       "No, Copilot Enterprise is a separate paid subscription available to GHEC orgs",
@@ -2640,7 +2640,7 @@
   },
   {
     "id": "q165",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "Which Copilot feature is particularly useful for exploring **unfamiliar APIs**?",
     "options": [
       "Copilot Chat for natural-language questions",
@@ -2656,7 +2656,7 @@
   },
   {
     "id": "q166",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which Copilot plan integrates with **enterprise authentication and SSO**?",
     "options": [
       "Copilot Free, with no enterprise identity integration",
@@ -2672,7 +2672,7 @@
   },
   {
     "id": "q167",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which Copilot plan allows **organization admins** to set **policy** for code suggestions?",
     "options": [
       "Copilot Individual (Pro/Pro+), where only personal preferences apply",
@@ -2688,7 +2688,7 @@
   },
   {
     "id": "q168",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "Which Copilot plan offers **enterprise support SLAs**?",
     "options": [
       "Copilot Free, with community-level help only",
@@ -2704,7 +2704,7 @@
   },
   {
     "id": "q169",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which Copilot plan is intended for teams that need **usage reporting** and **management** but **not** enterprise integrations?",
     "options": [
       "Copilot Free, with no org reporting or management",
@@ -2720,7 +2720,7 @@
   },
   {
     "id": "q170",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which Copilot plan is designed for **individual developers** who do **not** need organizational features?",
     "options": [
       "Copilot Free, with limited features and no full Pro experience",
@@ -2736,7 +2736,7 @@
   },
   {
     "id": "q171",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which Copilot plan allows organizations to configure **repository-level content exclusions**?",
     "options": [
       "Copilot Free, which has no org-level exclusion controls",
@@ -2752,7 +2752,7 @@
   },
   {
     "id": "q172",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which Copilot plan is ideal for enterprises requiring integration with **enterprise identity providers (SSO)**?",
     "options": [
       "Copilot Free, with no enterprise identity integration",
@@ -2768,7 +2768,7 @@
   },
   {
     "id": "q173",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "How does Copilot help increase **developer productivity**?",
     "options": [
       "By automating repetitive coding tasks and accelerating prototyping",
@@ -2784,7 +2784,7 @@
   },
   {
     "id": "q174",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "What can developers use Copilot for when working with **unfamiliar APIs**?",
     "options": [
       "Generate example code and speed up learning",
@@ -2800,7 +2800,7 @@
   },
   {
     "id": "q175",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Why is it important to **validate Copilot’s output** for compliance?",
     "options": [
       "To ensure code meets organizational and legal requirements",
@@ -2816,7 +2816,7 @@
   },
   {
     "id": "q176",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How can Copilot help developers write repetitive boilerplate code?",
     "options": [
       "By automatically generating common patterns and structures",
@@ -2832,7 +2832,7 @@
   },
   {
     "id": "q177",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "How does Copilot assist with learning new frameworks or languages?",
     "options": [
       "By providing fully curated tutorials and long-form documentation for every framework",
@@ -2848,7 +2848,7 @@
   },
   {
     "id": "q178",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which scenario demonstrates Copilot helping with testing?",
     "options": [
       "Copilot generates boilerplate unit tests from function definitions or selected code",
@@ -2864,7 +2864,7 @@
   },
   {
     "id": "q179",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "Which of the following is NOT a Copilot developer use case?",
     "options": [
       "Generating code snippets and helper functions in your editor",
@@ -2880,7 +2880,7 @@
   },
   {
     "id": "q180",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which of the following is a limitation of using Copilot for testing?",
     "options": [
       "Copilot cannot generate any unit test or test-related code at all",
@@ -2896,7 +2896,7 @@
   },
   {
     "id": "q181",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How does Copilot help in test-driven development (TDD)?",
     "options": [
       "By generating test templates and stubs before the implementation code is written",
@@ -2912,7 +2912,7 @@
   },
   {
     "id": "q182",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "How does Copilot improve developer productivity in testing?",
     "options": [
       "By suggesting boilerplate test structures, fixtures, and assertion scaffolds quickly",
@@ -2928,7 +2928,7 @@
   },
   {
     "id": "q183",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "Which scenario shows Copilot helping developers quickly prototype ideas?",
     "options": [
       "Generating quick code drafts for new features or experiments",
@@ -2944,7 +2944,7 @@
   },
   {
     "id": "q184",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which of the following demonstrates Copilot’s role in boosting developer productivity for testing?",
     "options": [
       "Writing unit test templates",
@@ -2960,7 +2960,7 @@
   },
   {
     "id": "q185",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which kinds of tests can Copilot generate or scaffold?",
     "options": [
       "Only end-to-end tests for full production environments",
@@ -2976,7 +2976,7 @@
   },
   {
     "id": "q186",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What should developers do **after** Copilot generates test cases?",
     "options": [
       "Deploy the generated tests directly to production without any review",
@@ -2992,7 +2992,7 @@
   },
   {
     "id": "q187",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "Which of the following is **NOT** a valid way Copilot helps with testing?",
     "options": [
       "Generating test templates and boilerplate test methods",
@@ -3008,7 +3008,7 @@
   },
   {
     "id": "q188",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How can Copilot help speed up debugging?",
     "options": [
       "By rewriting entire projects automatically without developer input",
@@ -3024,7 +3024,7 @@
   },
   {
     "id": "q189",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What is an example of Copilot supporting secure coding practices?",
     "options": [
       "Suggesting hard-coded passwords, API keys, or secrets directly in source",
@@ -3040,7 +3040,7 @@
   },
   {
     "id": "q190",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "How can Copilot support productivity in large projects?",
     "options": [
       "By automatically breaking down all large tasks into perfect sub-tasks with no input",
@@ -3056,7 +3056,7 @@
   },
   {
     "id": "q211",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "What is a key difference between **Copilot Agent Mode** and standard Copilot Chat?",
     "options": [
       "Standard Chat can only answer questions, while Agent Mode is limited to viewing logs and cannot edit code or run commands",
@@ -3072,7 +3072,7 @@
   },
   {
     "id": "q212",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "Which is the **best prompt** to give Copilot Agent Mode when building a new feature?",
     "options": [
       "“Fix everything in this repository and change whatever you think is necessary across all services.”",
@@ -3088,7 +3088,7 @@
   },
   {
     "id": "q213",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "In a **TDD-style workflow** using Copilot Agent Mode, what is an appropriate sequence?",
     "options": [
       "Write implementation code first, let Agent Mode delete or skip any failing tests, then deploy if the build is green",
@@ -3104,7 +3104,7 @@
   },
   {
     "id": "q214",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Which scenario **best fits** using Copilot Agent Mode instead of a simple edit or inline suggestion?",
     "options": [
       "Renaming a single local variable inside one function in a single file",
@@ -3120,7 +3120,7 @@
   },
   {
     "id": "q215",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "When Copilot Agent Mode opens a **pull request** after completing a task, what is the **developer’s responsibility**?",
     "options": [
       "None, the pull request from Copilot can be merged automatically without human review or checks",
@@ -3136,7 +3136,7 @@
   },
   {
     "id": "q241",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which task is **most appropriate** to assign to **GitHub Copilot coding agent in Agent mode**?",
     "options": [
       "Designing a brand-new architecture for a mission-critical payments platform with no existing code, tests, or safety nets",
@@ -3152,7 +3152,7 @@
   },
   {
     "id": "q242",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Which statement best describes **where and how** GitHub Copilot coding agent runs your code changes?",
     "options": [
       "It compiles and runs everything directly on each developer’s local machine using their local tools",
@@ -3168,7 +3168,7 @@
   },
   {
     "id": "q243",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which statement about **plan availability** for GitHub Copilot coding agent is correct?",
     "options": [
       "Coding agent is available only on Copilot Enterprise",
@@ -3184,7 +3184,7 @@
   },
   {
     "id": "q244",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "You want Copilot coding agent to **build and test faster and more reliably** when it works on tasks in your repository. What should you do?",
     "options": [
       "Ask every developer to run `npm install` locally before assigning issues to Copilot",
@@ -3200,7 +3200,7 @@
   },
   {
     "id": "q245",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "Which scenario best reflects **GitHub’s guidance on when *not* to assign a task** to Copilot coding agent?",
     "options": [
       "Updating CSS variables across the design system and running existing visual regression tests",
@@ -3216,7 +3216,7 @@
   },
   {
     "id": "q246",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "You need to **standardize logging** in a small service: - Update a helper to emit **structured JSON logs** - Add one new log call in a **single controller** - You want to **review a focused diff** before any changes land, and you don’t need the tool to run tests or touch other files. Which Copilot capability is the **best fit** for this task?",
     "options": [
       "Use the Copilot coding agent in Agent mode to refactor the entire repository",
@@ -3232,7 +3232,7 @@
   },
   {
     "id": "q247",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "How does **Copilot coding agent** typically operate on a task assigned from GitHub.com?",
     "options": [
       "It edits files directly and permanently in your local IDE without using branches or pull requests",
@@ -3248,7 +3248,7 @@
   },
   {
     "id": "q248",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which responsibilities remain with **developers/teams** when using Copilot coding agent? *(Choose all that apply.)*",
     "options": [
       "Reviewing and approving the pull request before merge",
@@ -3266,7 +3266,7 @@
   },
   {
     "id": "q249",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "How do you customize the **environment** that Copilot coding agent uses when working on a repository?",
     "options": [
       "By editing a personal `.copilot-env.json` file in your local home directory, which the agent automatically syncs and executes in the cloud",
@@ -3282,7 +3282,7 @@
   },
   {
     "id": "q250",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which scenario is **most appropriate** for assigning work to **Copilot coding agent**?",
     "options": [
       "Directly rotating production database credentials and applying schema changes in a live production environment",
@@ -3298,7 +3298,7 @@
   },
   {
     "id": "q251",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which task is **best suited** for GitHub Copilot **coding agent** rather than being handled entirely by a human developer?",
     "options": [
       "Designing a new cross-team architecture that spans several organizations and requires months of stakeholder alignment",
@@ -3314,7 +3314,7 @@
   },
   {
     "id": "q252",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "How does **GitHub Copilot coding agent** execute builds and tests for a task it’s working on?",
     "options": [
       "It runs directly in your IDE, reusing your local tools and terminal session, and never uses GitHub Actions",
@@ -3330,7 +3330,7 @@
   },
   {
     "id": "q253",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which statement correctly describes **who can use GitHub Copilot coding agent**?",
     "options": [
       "Coding agent is available only with Copilot Enterprise; Pro, Pro+, Business, and Free users cannot use it",
@@ -3346,7 +3346,7 @@
   },
   {
     "id": "q254",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Your team notices that Copilot coding agent spends a lot of time **figuring out how to install dependencies**, and sometimes fails to run tests because private packages aren’t available. How should you improve the **speed and reliability** of the agent’s runs?",
     "options": [
       "Ask each developer to run all installs locally and push `node_modules` or `vendor` directories into the repo so the agent doesn’t need to install anything",
@@ -3362,7 +3362,7 @@
   },
   {
     "id": "q255",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which scenario best exemplifies a task that **should not** be delegated to GitHub Copilot coding agent, according to GitHub’s guidance?",
     "options": [
       "Cleaning up duplicated helper functions in a utility module, with good test coverage in place",
@@ -3378,7 +3378,7 @@
   },
   {
     "id": "q256",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "You want to **standardize error handling** in a service by: - Updating a shared `handleError` helper in one file - Adding a single new `try/catch` around one call site in another file - Reviewing a **small, focused diff** before committing You **do not** need Copilot to run tests, call tools, or discover additional files on its own. Which Copilot capability is the **best fit**?",
     "options": [
       "Use Copilot coding agent from GitHub.com to autonomously refactor the entire service and open a PR",
@@ -3394,7 +3394,7 @@
   },
   {
     "id": "q257",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "A product manager opens a GitHub issue describing a **new API endpoint**. You want Copilot to: 1. Read the issue and existing code 2. Add the new route, handler, and tests across several files 3. Run the project’s tests 4. Open a **pull request** with a summary of what changed Which Copilot capability is designed for this **end-to-end, multi-step workflow**?",
     "options": [
       "Inline suggestions at the cursor to manually implement the endpoint and tests in one file at a time.",
@@ -3410,7 +3410,7 @@
   },
   {
     "id": "q258",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which scenario is **most appropriate** for using the **Copilot coding agent**, rather than only using Copilot Chat inside your IDE?",
     "options": [
       "Asking “Why does this function fail?” and pasting a stack trace for Copilot Chat to explain in your IDE.",
@@ -3426,7 +3426,7 @@
   },
   {
     "id": "q259",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "You want to delegate a task to the **Copilot coding agent**. Which instruction gives it the **most useful guidance**?",
     "options": [
       "“Fix everything that’s wrong in this repo and refactor as needed until there are no issues left.”",
@@ -3442,7 +3442,7 @@
   },
   {
     "id": "q260",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "After the **Copilot coding agent** completes a task and opens a pull request, what is the **team’s responsibility**?",
     "options": [
       "None, the agent’s PR can be merged without human review, because all tests are implicitly guaranteed to pass.",
@@ -3458,7 +3458,7 @@
   },
   {
     "id": "q261",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Where are Copilot prompts and allowed context processed?",
     "options": [
       "Only on the local IDE; nothing leaves the machine, and no data is sent to any GitHub or model service.",
@@ -3474,7 +3474,7 @@
   },
   {
     "id": "q262",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Does GitHub Copilot train on your **private code**?",
     "options": [
       "Yes, always your private code is automatically used to train Copilot models in all plans.",
@@ -3490,7 +3490,7 @@
   },
   {
     "id": "q263",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "What does **Content exclusion** actually do?",
     "options": [
       "Censors outputs that are similar to excluded files, but still allows those files to be used as input context.",
@@ -3506,7 +3506,7 @@
   },
   {
     "id": "q264",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "How does Copilot handle suggestions that **exactly match** long segments of public code?",
     "options": [
       "Always allows long exact matches from public code, but adds a warning about possible licensing issues.",
@@ -3522,7 +3522,7 @@
   },
   {
     "id": "q265",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Which statement best describes **Copilot usage telemetry/metrics**?",
     "options": [
       "Copilot collects no usage data",
@@ -3538,7 +3538,7 @@
   },
   {
     "id": "q266",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "Do **content exclusion** rules apply across all supported Copilot **surfaces** (IDE, GitHub.com, CLI, Mobile)?",
     "options": [
       "No, only in VS Code",
@@ -3554,7 +3554,7 @@
   },
   {
     "id": "q267",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "At which **scopes** can you configure **code referencing / matching public code**?",
     "options": [
       "Only at the repo level",
@@ -3570,7 +3570,7 @@
   },
   {
     "id": "q268",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Is GitHub Copilot supported on **GitHub Enterprise Server (GHES)**?",
     "options": [
       "Yes, Copilot runs entirely on-prem",
@@ -3586,7 +3586,7 @@
   },
   {
     "id": "q269",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which statement about **repository-aware Copilot Chat on GitHub.com** is accurate?",
     "options": [
       "Available to all plans by default",
@@ -3602,7 +3602,7 @@
   },
   {
     "id": "q270",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "If an **enterprise policy** enforces “Block matching public code,” can an organization **override** it?",
     "options": [
       "Yes, at the org level an organization owner can always change “Block matching public code” to “Allow” even if the enterprise enforces it.",
@@ -3618,7 +3618,7 @@
   },
   {
     "id": "q271",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "What’s the difference between **Content exclusion** and **Code referencing (“matching public code”)**?",
     "options": [
       "Content exclusion limits what Copilot can see as input context; code referencing governs outputs that resemble public code",
@@ -3634,7 +3634,7 @@
   },
   {
     "id": "q272",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "Which statement best describes what **Copilot usage metrics** capture (and don’t capture)?",
     "options": [
       "Only low-level error logs from IDE extensions, with no information about feature usage or adoption.",
@@ -3650,7 +3650,7 @@
   },
   {
     "id": "q273",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How can Copilot best support a **TDD (red→green→refactor)** workflow?",
     "options": [
       "Use Copilot to automatically approve and merge pull requests whenever the test suite passes, replacing human review.",
@@ -3666,7 +3666,7 @@
   },
   {
     "id": "q274",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "After Copilot generates a suite of unit tests, what’s the next best action?",
     "options": [
       "Merge the changes immediately because AI-generated tests guarantee correctness and coverage.",
@@ -3682,7 +3682,7 @@
   },
   {
     "id": "q275",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which of the following is **NOT** something Copilot does for testing?",
     "options": [
       "Help create parameterized or table-driven tests based on a highlighted function and your chosen framework.",
@@ -3698,7 +3698,7 @@
   },
   {
     "id": "q276",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "How does Copilot help during **pull request reviews** on GitHub.com?",
     "options": [
       "Automatically approve and merge pull requests whenever required checks pass, bypassing human reviewers.",
@@ -3714,7 +3714,7 @@
   },
   {
     "id": "q277",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which combination best enforces **quality gates** when adopting Copilot-generated changes?",
     "options": [
       "Accept Copilot’s suggestions, rely only on informal review, and merge without CI checks.",
@@ -3730,7 +3730,7 @@
   },
   {
     "id": "q278",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What’s the most effective way to have Copilot generate **parameterized (table-driven) tests**?",
     "options": [
       "First generate large, end-to-end integration tests, then manually split them into smaller parameterized unit tests.",
@@ -3746,7 +3746,7 @@
   },
   {
     "id": "q279",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which statement about **coverage and quality** is accurate when using Copilot for tests?",
     "options": [
       "Coverage no longer matters if you enable AI PR summaries and rely on them to catch issues.",
@@ -3762,7 +3762,7 @@
   },
   {
     "id": "q280",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "You accepted Copilot’s suggested tests, but some are **flaky**. What’s the best next step?",
     "options": [
       "Increase global timeouts or add retries across the entire suite to hide intermittent failures.",
@@ -3778,7 +3778,7 @@
   },
   {
     "id": "q281",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "How do **Content exclusion** and **code referencing (matching public code)** relate to testing with Copilot?",
     "options": [
       "Code referencing runs your test suite to find failing tests that match public code snippets.",
@@ -3794,7 +3794,7 @@
   },
   {
     "id": "q282",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "You want Copilot to draft **Given/When/Then** test templates before implementation. What should you do?",
     "options": [
       "Provide a short BDD-style spec (Given/When/Then), the test framework, and ask Copilot to scaffold failing tests",
@@ -3810,7 +3810,7 @@
   },
   {
     "id": "q283",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "When should you choose **Copilot Edits (Edit mode)** instead of **Agent mode**?",
     "options": [
       "Use Copilot to bypass branch protections and required reviews so changes can merge immediately.",
@@ -3826,7 +3826,7 @@
   },
   {
     "id": "q284",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "What can **Copilot Agent mode** do in a repository that **Copilot Edits** does not?",
     "options": [
       "Temporarily disable branch protections to allow Copilot to push hotfixes.",
@@ -3842,7 +3842,7 @@
   },
   {
     "id": "q285",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "You must: generate tests, update config, run tests, fix failures, and then open a PR. Which split best reflects **Chat vs. Agent**?",
     "options": [
       "Use Copilot Chat for every step (draft, run, open PR) and never use the coding agent.",
@@ -3858,7 +3858,7 @@
   },
   {
     "id": "q286",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "Which workflow is safest when asking the coding agent to run terminal steps?",
     "options": [
       "Work on a feature branch, keep changes small, run tests, and be ready to revert",
@@ -3874,7 +3874,7 @@
   },
   {
     "id": "q287",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What’s the right way to treat **Copilot PR summaries and review suggestions**?",
     "options": [
       "Use Copilot summaries to merge directly to main without any approvals when changes look small.",
@@ -3890,7 +3890,7 @@
   },
   {
     "id": "q288",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "When is **Agent mode** likely overkill, and a different approach is better?",
     "options": [
       "You must run tests, fix failures across multiple packages, and open a PR with the results.",
@@ -3906,7 +3906,7 @@
   },
   {
     "id": "q289",
-    "domain": "github-workflow",
+    "domain": "developer-workflows",
     "question": "What’s a safe boundary pattern when letting the coding agent run commands?",
     "options": [
       "Work on a feature branch, require status checks, commit in small steps, and provide a rollback plan",
@@ -3922,7 +3922,7 @@
   },
   {
     "id": "q290",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How do **branch protections** interact with **Copilot review suggestions**?",
     "options": [
       "Required reviewers and status checks still apply; Copilot suggestions don’t override protections",
@@ -3938,7 +3938,7 @@
   },
   {
     "id": "q291",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which is the best practice when Copilot suggests changes during **PR review**?",
     "options": [
       "Auto-commit Copilot’s suggestions directly to the default branch so they bypass pull request review.",
@@ -3954,7 +3954,7 @@
   },
   {
     "id": "q292",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "You want subject-matter experts to always review changes in specific paths. What should you rely on?",
     "options": [
       "A CODEOWNERS file to require reviews from designated owners for matching paths",
@@ -3970,7 +3970,7 @@
   },
   {
     "id": "q293",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "You need to: run tests, update failing snapshots, touch code across 4 files, refresh docs, and open a PR. Which Copilot flow is the best fit?",
     "options": [
       "Use Copilot Edits (Edit mode) for code changes but skip tests entirely to simplify the workflow.",
@@ -3986,7 +3986,7 @@
   },
   {
     "id": "q294",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "Which statement about **PRs created by the coding agent** is correct?",
     "options": [
       "Branch protections, required checks, and CODEOWNERS still apply",
@@ -4002,7 +4002,7 @@
   },
   {
     "id": "q295",
-    "domain": "github-workflow",
+    "domain": "developer-workflows",
     "question": "You’re in a **monorepo**. What’s the best way to keep the coding agent from making unintended cross-package edits?",
     "options": [
       "Scope the task with clear paths/packages and request reviewable diffs per package",
@@ -4018,7 +4018,7 @@
   },
   {
     "id": "q296",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "Which task best leverages the coding agent instead of Chat alone?",
     "options": [
       "Use Copilot just to rephrase a paragraph in the README.",
@@ -4034,7 +4034,7 @@
   },
   {
     "id": "q297",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What’s a good **rollback pattern** when the agent performs iterative fixes?",
     "options": [
       "Squash all agent commits into a single large commit so intermediate states are hidden.",
@@ -4050,7 +4050,7 @@
   },
   {
     "id": "q298",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "You ask the agent to “run the test suite and fix failing tests.” What’s the safest expectation?",
     "options": [
       "Expect it to auto-merge its branch whenever tests pass, even if required reviewers haven’t approved.",
@@ -4066,7 +4066,7 @@
   },
   {
     "id": "q299",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "What’s the **primary value** of Copilot PR summaries?",
     "options": [
       "They help reviewers grasp intent, risky areas, and change scope quickly",
@@ -4082,7 +4082,7 @@
   },
   {
     "id": "q300",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How should you treat **Copilot review suggestions** in a **security-sensitive repo**?",
     "options": [
       "Merge directly to main to minimize drift",
@@ -4098,7 +4098,7 @@
   },
   {
     "id": "q256",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "What is the primary difference between Copilot suggestions and Copilot Chat?",
     "options": [
       "Suggestions are only available in VS Code, while Chat works in all IDEs",
@@ -4114,7 +4114,7 @@
   },
   {
     "id": "q257",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which principle helps ensure that AI systems explain their decisions in understandable terms?",
     "options": [
       "Reliability and Safety",
@@ -4130,7 +4130,7 @@
   },
   {
     "id": "q258",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "When should you use Copilot's Edit feature instead of inline suggestions?",
     "options": [
       "When you need to change syntax only",
@@ -4146,7 +4146,7 @@
   },
   {
     "id": "q259",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What should a developer do when Copilot suggests code that includes hard-coded credentials?",
     "options": [
       "Use the credentials as suggested if they work",
@@ -4162,7 +4162,7 @@
   },
   {
     "id": "q260",
-    "domain": "github-workflow",
+    "domain": "software-development-tasks",
     "question": "How can Copilot assist in the pull request review process?",
     "options": [
       "Copilot cannot review pull requests at all",
@@ -4178,7 +4178,7 @@
   },
   {
     "id": "q261",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "What is the purpose of Copilot's /explain command in Chat?",
     "options": [
       "To delete code from your repository",
@@ -4194,7 +4194,7 @@
   },
   {
     "id": "q262",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which Responsible AI principle focuses on ensuring AI systems perform consistently and reliably?",
     "options": [
       "Privacy and Security",
@@ -4210,7 +4210,7 @@
   },
   {
     "id": "q263",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "How does Copilot help with refactoring legacy code?",
     "options": [
       "It can automatically delete all legacy code",
@@ -4226,7 +4226,7 @@
   },
   {
     "id": "q264",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What is the best approach when you identify bias in Copilot-generated code?",
     "options": [
       "Ignore it and use the code as-is",
@@ -4242,7 +4242,7 @@
   },
   {
     "id": "q265",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "What context does Copilot use to generate relevant suggestions?",
     "options": [
       "Only the current line of code",
@@ -4258,7 +4258,7 @@
   },
   {
     "id": "q266",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "How does the Fairness principle apply to AI systems used in hiring decisions?",
     "options": [
       "Fairness is not relevant to hiring systems",
@@ -4274,7 +4274,7 @@
   },
   {
     "id": "q267",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "What should you do if Copilot suggests code that may not work correctly?",
     "options": [
       "Always use it without testing",
@@ -4290,7 +4290,7 @@
   },
   {
     "id": "q268",
-    "domain": "github-workflow",
+    "domain": "software-development-tasks",
     "question": "How can developers use Copilot to improve code review efficiency?",
     "options": [
       "Copilot cannot assist with code reviews",
@@ -4306,7 +4306,7 @@
   },
   {
     "id": "q269",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "What does the Privacy and Security principle require organizations to do?",
     "options": [
       "Ignore data protection regulations",
@@ -4322,7 +4322,7 @@
   },
   {
     "id": "q270",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "In what scenario would Copilot be most helpful for documentation?",
     "options": [
       "Copilot cannot help with documentation",
@@ -4338,7 +4338,7 @@
   },
   {
     "id": "q271",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What does Accountability in AI mean?",
     "options": [
       "Machines make all decisions autonomously",
@@ -4354,7 +4354,7 @@
   },
   {
     "id": "q272",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "How does Copilot assist in learning new programming languages?",
     "options": [
       "It can only work with languages you already know",
@@ -4370,7 +4370,7 @@
   },
   {
     "id": "q273",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "When implementing Inclusiveness in product design, what should be prioritized?",
     "options": [
       "Designing for the majority only",
@@ -4386,7 +4386,7 @@
   },
   {
     "id": "q274",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What is an appropriate use case for Copilot in writing unit tests?",
     "options": [
       "Copilot cannot help with testing at all",
@@ -4402,7 +4402,7 @@
   },
   {
     "id": "q275",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What is a key requirement of the Transparency principle?",
     "options": [
       "Hiding how AI systems work",
@@ -4418,7 +4418,7 @@
   },
   {
     "id": "q276",
-    "domain": "copilot-features",
+    "domain": "developer-workflows",
     "question": "How can teams use Copilot to maintain consistent code style across a project?",
     "options": [
       "Copilot is incompatible with code style guides",
@@ -4434,7 +4434,7 @@
   },
   {
     "id": "q277",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What should organizations do to identify AI-related risks before deployment?",
     "options": [
       "Ignore risks and deploy immediately",
@@ -4450,7 +4450,7 @@
   },
   {
     "id": "q278",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "In which phase of the SDLC can Copilot provide value?",
     "options": [
       "Only in the development phase",
@@ -4466,7 +4466,7 @@
   },
   {
     "id": "q279",
-    "domain": "responsible-ai",
+    "domain": "administration-governance",
     "question": "What is a best practice for handling AI-generated content in regulated industries?",
     "options": [
       "Use AI-generated content without any review or validation",
@@ -4482,7 +4482,7 @@
   },
   {
     "id": "q280",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "How can Copilot assist developers working on complex algorithms?",
     "options": [
       "It cannot help with algorithm development",
@@ -4498,7 +4498,7 @@
   },
   {
     "id": "q281",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What does it mean to implement human oversight in AI systems?",
     "options": [
       "Removing all human involvement",
@@ -4514,7 +4514,7 @@
   },
   {
     "id": "q282",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "What is Copilot's role in accelerating code reviews?",
     "options": [
       "Copilot performs final code reviews that bypass human judgment",
@@ -4530,7 +4530,7 @@
   },
   {
     "id": "q283",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "Which scenario demonstrates proper application of the Fairness principle?",
     "options": [
       "Training a model on biased historical data",
@@ -4546,7 +4546,7 @@
   },
   {
     "id": "q284",
-    "domain": "copilot-features",
+    "domain": "administration-governance",
     "question": "How should developers approach using Copilot for security-sensitive code?",
     "options": [
       "Accept all Copilot suggestions for security code without review",
@@ -4562,7 +4562,7 @@
   },
   {
     "id": "q285",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What should be included in a responsible AI governance framework?",
     "options": [
       "No oversight or governance is needed",
@@ -4578,7 +4578,7 @@
   },
   {
     "id": "q286",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "What is a limitation of Copilot that developers should be aware of?",
     "options": [
       "Copilot has no limitations",
@@ -4594,7 +4594,7 @@
   },
   {
     "id": "q287",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "How can teams measure and monitor Fairness in deployed AI systems?",
     "options": [
       "Fairness cannot be measured",
@@ -4610,7 +4610,7 @@
   },
   {
     "id": "q288",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What is the benefit of using Copilot for technical documentation?",
     "options": [
       "Copilot cannot help with documentation",
@@ -4626,7 +4626,7 @@
   },
   {
     "id": "q289",
-    "domain": "responsible-ai",
+    "domain": "developer-workflows",
     "question": "What action should developers take if Copilot suggests code that violates security best practices?",
     "options": [
       "Use the suggestion anyway",
@@ -4642,7 +4642,7 @@
   },
   {
     "id": "q290",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "How can Copilot support developers working across multiple programming languages?",
     "options": [
       "It only works with one language",
@@ -4658,7 +4658,7 @@
   },
   {
     "id": "q291",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What is the relationship between Transparency and Accountability in AI systems?",
     "options": [
       "They are unrelated concepts",
@@ -4674,7 +4674,7 @@
   },
   {
     "id": "q292",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What should be the developer's approach to Copilot-generated tests?",
     "options": [
       "Use them directly in production without modification",
@@ -4690,7 +4690,7 @@
   },
   {
     "id": "q293",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "How should privacy considerations be incorporated into the design phase of AI systems?",
     "options": [
       "Privacy should be added only during deployment",
@@ -4706,7 +4706,7 @@
   },
   {
     "id": "q294",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "In what way can Copilot improve developer productivity for repetitive tasks?",
     "options": [
       "It cannot help with repetitive tasks",
@@ -4722,7 +4722,7 @@
   },
   {
     "id": "q295",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What should organizations monitor regarding AI system performance over time?",
     "options": [
       "Nothing, systems work the same after deployment",
@@ -4738,7 +4738,7 @@
   },
   {
     "id": "q296",
-    "domain": "copilot-features",
+    "domain": "copilot-fundamentals",
     "question": "How does context awareness improve Copilot's code suggestions?",
     "options": [
       "Copilot has no context awareness",
@@ -4754,7 +4754,7 @@
   },
   {
     "id": "q297",
-    "domain": "responsible-ai",
+    "domain": "copilot-fundamentals",
     "question": "What is a red flag indicating potential bias in an AI system?",
     "options": [
       "There are no red flags for bias",
@@ -4770,7 +4770,7 @@
   },
   {
     "id": "q298",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What is Copilot's role in the debugging process?",
     "options": [
       "Copilot cannot assist with debugging",
@@ -4786,7 +4786,7 @@
   },
   {
     "id": "q299",
-    "domain": "responsible-ai",
+    "domain": "software-development-tasks",
     "question": "How should organizations respond when an AI system produces a harmful or biased output?",
     "options": [
       "Ignore the issue and continue operating",
@@ -4802,7 +4802,7 @@
   },
   {
     "id": "q300",
-    "domain": "copilot-features",
+    "domain": "software-development-tasks",
     "question": "What is the most important principle developers should follow when using Copilot?",
     "options": [
       "Trust Copilot completely without verification",
