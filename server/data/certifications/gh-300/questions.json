@@ -4815,5 +4815,261 @@
     ],
     "explanation": "The key principle is that Copilot is a productivity tool that accelerates development, but developers remain fully responsible for reviewing, testing, validating, and ensuring all code meets quality and security standards.",
     "difficulty": "medium"
+  },
+  {
+    "id": "q301",
+    "domain": "copilot-fundamentals",
+    "question": "What is the purpose of preprocessing a request before it is sent to a Copilot model?",
+    "options": [
+      "To publish the request as a public repository",
+      "To assemble permitted context and apply relevant policy or content controls",
+      "To guarantee that the model will return compilable code",
+      "To replace the developer's request with a fixed template"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Preprocessing prepares the request for the model by combining the prompt with allowed context and applying applicable controls, such as content-exclusion or policy boundaries. It does not guarantee correctness or replace developer judgment.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q302",
+    "domain": "copilot-fundamentals",
+    "question": "Why can a Copilot response be subject to checks after the model generates it?",
+    "options": [
+      "To remove the need for code review",
+      "To apply safety or policy checks before the response is shown",
+      "To convert every response into a pull request automatically",
+      "To ensure every response uses the newest programming language version"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Generated content can be checked against safety and product policies before delivery. These checks reduce risk, but they do not make generated code inherently secure, correct, or suitable for production.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q303",
+    "domain": "developer-workflows",
+    "question": "Which task is an appropriate use of Copilot in a command-line workflow?",
+    "options": [
+      "Drafting or explaining a shell command before the developer runs it",
+      "Running every suggested command with administrator privileges",
+      "Changing repository permissions without confirmation",
+      "Replacing the shell and operating system"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Copilot can help draft and explain shell or Git commands. The developer remains responsible for checking the command, understanding its effects, and deciding whether to execute it, especially when it changes files or systems.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q304",
+    "domain": "developer-workflows",
+    "question": "What is the most useful response when a Copilot suggestion appears to use a deprecated API?",
+    "options": [
+      "Accept it because deprecated APIs are always safer",
+      "Review the relevant versioned documentation and revise or reject the suggestion",
+      "Disable all testing for the affected code",
+      "Assume the API is current because Copilot suggested it"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Copilot can reproduce outdated patterns from its context or learned examples. Developers should check the documentation for the actual dependency or runtime version, then update, test, or reject the suggestion as appropriate.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q305",
+    "domain": "administration-governance",
+    "question": "What should an organization do when a Copilot suggestion is flagged as potentially matching public code?",
+    "options": [
+      "Merge it immediately because public code requires no review",
+      "Review the match and its license or policy implications before using it",
+      "Delete the entire repository without investigating",
+      "Assume the suggestion is original if it passes a unit test"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "A public-code match can raise licensing and attribution questions. The organization should review the match, applicable policies, and licensing requirements before incorporating the code; tests alone do not resolve those obligations.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q306",
+    "domain": "administration-governance",
+    "question": "Which information is most useful when evaluating Copilot adoption through usage metrics?",
+    "options": [
+      "The private source code of every repository",
+      "Feature activity and engagement trends, such as suggestions and chat usage",
+      "A guarantee that every accepted suggestion is defect-free",
+      "The personal passwords of users who received suggestions"
+    ],
+    "correctAnswers": [
+      1
+    ],
+    "explanation": "Usage metrics help administrators evaluate adoption and engagement across Copilot features. They are not a substitute for code-quality review and should not be treated as a dump of private source code or credentials.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q307",
+    "domain": "developer-workflows",
+    "question": "What is a sound way to provide feedback about an unhelpful Copilot response?",
+    "options": [
+      "Provide feedback through the supported product feedback mechanism and include useful context",
+      "Paste confidential credentials into the feedback field",
+      "Treat the response as correct and provide no review",
+      "Modify the response silently without reporting the issue"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Supported feedback controls let users report response quality and help identify problems. Feedback should contain relevant, non-sensitive context and should never include secrets or confidential data unnecessarily.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q308",
+    "domain": "copilot-fundamentals",
+    "question": "Why might Copilot produce a confident but inaccurate answer?",
+    "options": [
+      "A language model predicts likely content rather than verifying every claim against authoritative sources",
+      "Copilot executes a complete test suite before every answer",
+      "Copilot only uses code written by the current developer",
+      "A confident tone proves that the answer was verified"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Copilot generates likely text and code from the available prompt and context; it does not automatically establish that every claim is true or that every suggestion works. Developers should verify important answers against authoritative documentation and tests.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "q309",
+    "domain": "software-development-tasks",
+    "question": "What should a developer do after asking Copilot to refactor code across several files?",
+    "options": [
+      "Review the complete diff, run relevant tests, and check behavior and security implications",
+      "Accept every change because multi-file edits are automatically consistent",
+      "Skip tests because the request used a detailed prompt",
+      "Delete the original implementation before reviewing the changes"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Multi-file changes can introduce inconsistent behavior, missed dependencies, or security regressions. Reviewing the diff and validating it with tests and other checks keeps the developer accountable for the final result.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q310",
+    "domain": "administration-governance",
+    "question": "What is the primary value of organization audit events related to Copilot?",
+    "options": [
+      "They provide governance visibility into administrative actions and usage-related events",
+      "They prove that all generated code is secure",
+      "They store every private prompt forever for unrestricted access",
+      "They replace repository access controls"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Audit events support governance by helping administrators trace relevant administrative actions and activity. They do not certify generated code, replace access controls, or imply unlimited retention of private prompts.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q311",
+    "domain": "developer-workflows",
+    "question": "You are working in a Copilot CLI session from `/repo/app` and need Copilot to access and modify files under `/repo/tests` without restarting. Which command should you use?",
+    "options": [
+      "github-copilot config add /repo/tests",
+      "github-copilot config remove /repo/tests",
+      "github-copilot config list /repo/tests",
+      "github-copilot restart --dir /repo/tests"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "The configuration add command registers an additional trusted directory for the current Copilot CLI workflow. Removing or listing configuration does not grant access, and restarting is not required for this operation.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q312",
+    "domain": "developer-workflows",
+    "question": "A developer opens Copilot CLI from a project root on a new workstation and is not authenticated. Which workflow best starts an interactive session?",
+    "options": [
+      "Open a terminal, navigate to the project root, run Copilot CLI, and complete the prompted sign-in flow if required",
+      "Run a saved-session resume command before installing or authenticating the CLI",
+      "Grant administrator permissions to the project and skip authentication",
+      "Create a repository issue because interactive CLI sessions cannot use authentication"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "The normal workflow is to start from the project directory and launch the CLI. If the user is not authenticated, the CLI can initiate its supported sign-in flow; saved-session commands are for sessions that already exist.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q313",
+    "domain": "developer-workflows",
+    "question": "A team is preparing a Windows development machine for Copilot CLI. Which pairing matches the setup tasks?",
+    "options": [
+      "Install the CLI with `github-copilot-cli install`; start interactive chat with `github-copilot-cli chat`",
+      "Install the CLI with `github-copilot-cli chat`; start chat with `github-copilot-cli install`",
+      "Install the CLI by creating a repository issue; start chat from the audit log",
+      "Install the CLI with `git clone`; start chat with a compiler command"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "The install command prepares the CLI, while the chat command starts the interactive experience. They serve different lifecycle steps and should not be swapped.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q314",
+    "domain": "developer-workflows",
+    "question": "Copilot Chat is carrying irrelevant earlier messages while you debug a function. What should you do when you need the next response to use only the new input?",
+    "options": [
+      "Clear or reset the current chat context, then submit the new request",
+      "Add more unrelated messages so the relevant request is easier to find",
+      "Reuse the old conversation and assume irrelevant context is ignored automatically",
+      "Restart the operating system without changing the chat context"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Clearing or resetting the conversation removes the earlier chat context so the next request starts a fresh prompt flow. This is different from merely adding another message to the existing thread.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "q315",
+    "domain": "developer-workflows",
+    "question": "You recently ended a Copilot CLI session. Which command pairing lists saved sessions and resumes the most recently ended session?",
+    "options": [
+      "`gh copilot sessions list` to list them; `gh copilot sessions resume` to resume the latest",
+      "`gh copilot sessions resume` to list them; `gh copilot sessions list` to resume the latest",
+      "`gh copilot config list` to list them; `gh copilot config add` to resume the latest",
+      "`gh copilot chat list` to list them; `gh copilot chat restart` to resume the latest"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "The sessions list subcommand displays saved interactive sessions, while sessions resume starts a prior session and, without another selection, targets the most recently ended session.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "q316",
+    "domain": "copilot-fundamentals",
+    "question": "A developer asks why Copilot often suggests familiar patterns instead of unusual ones. Which explanation is most accurate?",
+    "options": [
+      "The model is influenced by patterns that occur frequently in its training and provided context",
+      "The model guarantees that common patterns are always the best design",
+      "The model invents suggestions independently of its training and context",
+      "The model only suggests code that the current developer previously wrote"
+    ],
+    "correctAnswers": [
+      0
+    ],
+    "explanation": "Generative models learn statistical patterns from training data and use the current prompt and context. Frequent patterns can therefore be more likely, but familiarity is not proof that a suggestion is optimal, secure, or appropriate for the project.",
+    "difficulty": "medium"
   }
 ]

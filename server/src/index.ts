@@ -33,7 +33,7 @@ app.get("/api/modes", (_req, res) => {
   const modes = {
     practice: {
       name: "Practice Session",
-      questionCount: 300,
+      questionCount: 316,
       timeLimit: null,
       description: "Full practice session with all available questions",
     },

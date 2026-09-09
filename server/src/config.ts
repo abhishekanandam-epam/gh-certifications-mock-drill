@@ -9,8 +9,8 @@ export interface ModeConfig {
 export const modeConfigs: Record<string, ModeConfig> = {
   practice: {
     name: "Practice Session",
-    defaultCount: 300,
-    maxCount: 300,
+    defaultCount: 316,
+    maxCount: 316,
     description: "Full practice session with all available questions",
   },
   exam: {
